@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+}
+
+.red {
+    color: red;
+    font-size: 18px;
+}
+
+.green {
+    color: #91c824;
+    font-size: 18px;
+}
+
+.disabled {
+    cursor: not-allowed;
+    background-color: #7011f568 !important;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.alert {
+    color: #000000;
+    width: 100%;
+    font-weight: 800;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #dfe4f7;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 2px 2px 10px #00000052;
+    width: 400px;
+    height: max-content;
+}
+
+.card-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.btn .icons {
+    color: #111111;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.icons {
+    color: #111111;
+    font-size: 18px;
+}
+
+.btn.active {
+    background-color: #6f11f5;
+}
+
+.btn.active .icons, .btn.active {
+    color: #fff;
+}
+
+.input-box {
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.input-box input {
+    border: 1px solid transparent;
+    font-family: "Poppins", sans-serif;
+    margin-left: 10px;
+}
+
+.input-box input:focus {
+    border: 1px solid transparent;
+    outline: transparent;
+}
+
+.submitBtn {
+    padding: 10px;
+    background-color: #6f11f5;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
